@@ -13,6 +13,9 @@ public class App
 
         System.out.println( "Hello World!" );
 
+        GlobalTimer globalTimer = new GlobalTimer(10);
+        System.out.println(globalTimer);
+
 
     }
 }

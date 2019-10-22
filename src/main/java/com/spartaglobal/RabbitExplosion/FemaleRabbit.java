@@ -16,12 +16,21 @@ public class FemaleRabbit extends Rabbit implements IFemaleRabbit {
 
     @Override
     public int getGiveBirth() {
-        return this.birth;
+        int kit;
+        kit = (int)
+        Math.round(Math.random()*14);
+
+        return kit;
     }
 
     @Override
     public int setGiveBirth(int giveBirth) {
          this.birth = birth;
         return giveBirth;
+    }
+
+    @Override
+    public void canGetPregnant(boolean canGetPregnant) {
+
     }
 }

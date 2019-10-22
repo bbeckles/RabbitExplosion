@@ -7,8 +7,7 @@ public interface IFemaleRabbit extends IRabbit {
     int  getGiveBirth ();
     int setGiveBirth(int birth);
 
-    void  canGetPregnant ( boolean canGetPregnant)
-
+    void  canGetPregnant ( boolean canGetPregnant);
 
 
 
