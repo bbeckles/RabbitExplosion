@@ -15,21 +15,7 @@ public  class Rabbit implements IRabbit {
         System.out.println("Rabbit is here");
     }
 
-    public void matureRabbit(){
-        Timer timer = new Timer();
-        TimerTask timerTask = new TimerTask() {
-            @Override
-            public void run() {
-                printRabbit();
-                timer.cancel();
 
-            }
-
-        };
-
-        timer.schedule(timerTask,3000,1000);
-
-    }
 
     @Override
     public int setAge(int age) {

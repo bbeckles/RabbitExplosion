@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 public class GlobalTimer{
 
-    private int seconds;
+    public static int seconds;
     private Timer timer = new Timer();
 
     public GlobalTimer(int seconds) {

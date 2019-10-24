@@ -11,10 +11,14 @@ public class App
     public static void main( String[] args )
     {
 
-        System.out.println( "Hello World!" );
+        Rabbit rabbit = new Rabbit();
 
-        GlobalTimer globalTimer = new GlobalTimer(10);
-        System.out.println(globalTimer);
+
+        RabbitSimulator rabbitSimulator = new RabbitSimulator();
+        rabbitSimulator.simulationStart();
+
+
+
 
 
     }
